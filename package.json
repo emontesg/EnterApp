@@ -1,0 +1,35 @@
+{
+  "name": "enter",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "contentful": "^4.6.0",
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.48.4",
+    "react-native-linear-gradient": "^2.2.0",
+    "react-native-router-flux": "^4.0.0-beta.21",
+    "react-native-snap-carousel": "^3.2.3",
+    "react-native-vector-icons": "^4.4.0",
+    "react-native-video": "^2.0.0",
+    "react-native-video-controls": "^1.4.1",
+    "react-native-video-player": "^0.8.4"
+  },
+  "devDependencies": {
+    "babel-jest": "21.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "21.2.0",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts"
+    ]
+  }
+}
